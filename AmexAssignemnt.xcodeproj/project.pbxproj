@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D330DFFE2B5FA04E00E860D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330DFFD2B5FA04E00E860D8 /* AppDelegate.swift */; };
+		D330E0002B5FA04E00E860D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330DFFF2B5FA04E00E860D8 /* SceneDelegate.swift */; };
+		D330E0072B5FA05200E860D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D330E0062B5FA05200E860D8 /* Assets.xcassets */; };
+		D330E00A2B5FA05200E860D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D330E0082B5FA05200E860D8 /* LaunchScreen.storyboard */; };
+		D330E01F2B5FA05200E860D8 /* AmexAssignemntUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330E01E2B5FA05200E860D8 /* AmexAssignemntUITests.swift */; };
+		D330E0212B5FA05200E860D8 /* AmexAssignemntUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330E0202B5FA05200E860D8 /* AmexAssignemntUITestsLaunchTests.swift */; };
+		D330E0332B5FA4E000E860D8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330E0322B5FA4E000E860D8 /* NetworkManager.swift */; };
+		D330E0372B5FB32200E860D8 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330E0362B5FB32200E860D8 /* ImageModel.swift */; };
+		D330E0392B5FB38300E860D8 /* PhotoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330E0382B5FB38300E860D8 /* PhotoListViewModel.swift */; };
+		D330E03D2B5FB3F400E860D8 /* PhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330E03C2B5FB3F400E860D8 /* PhotoListViewController.swift */; };
+		D330E0402B5FBD2B00E860D8 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330E03F2B5FBD2B00E860D8 /* PhotoDetailViewController.swift */; };
+		D330E0432B5FBFC000E860D8 /* PhotoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330E0422B5FBFC000E860D8 /* PhotoListTableViewCell.swift */; };
+		D330E0452B6A535D00E860D8 /* APIERROR.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330E0442B6A535D00E860D8 /* APIERROR.swift */; };
+		D330E0472B6A73E000E860D8 /* UIView+ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330E0462B6A73E000E860D8 /* UIView+ActivityIndicator.swift */; };
+		D330E04F2B6A7AA100E860D8 /* PhotoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330E04E2B6A7AA100E860D8 /* PhotoDetailViewModel.swift */; };
+		D330E0532B6B70D700E860D8 /* PhotoListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330E0522B6B70D700E860D8 /* PhotoListViewModelTests.swift */; };
+		D330E0582B6B87DC00E860D8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330E0572B6B87DC00E860D8 /* Constants.swift */; };
+		D34FDD192B722F4A0099736B /* PhotoDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FDD182B722F4A0099736B /* PhotoDetailViewModelTests.swift */; };
+		D36700A62B6EC6070062971B /* MockImageServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36700A52B6EC6070062971B /* MockImageServices.swift */; };
+		D36700A82B6ED8460062971B /* PhotoDetailViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36700A72B6ED8460062971B /* PhotoDetailViewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D330E0112B5FA05200E860D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D330DFF22B5FA04E00E860D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D330DFF92B5FA04E00E860D8;
+			remoteInfo = AmexAssignemnt;
+		};
+		D330E01B2B5FA05200E860D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D330DFF22B5FA04E00E860D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D330DFF92B5FA04E00E860D8;
+			remoteInfo = AmexAssignemnt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D330DFFA2B5FA04E00E860D8 /* AmexAssignemnt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmexAssignemnt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D330DFFD2B5FA04E00E860D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D330DFFF2B5FA04E00E860D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D330E0062B5FA05200E860D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D330E0092B5FA05200E860D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D330E00B2B5FA05200E860D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D330E0102B5FA05200E860D8 /* AmexAssignemntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmexAssignemntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D330E01A2B5FA05200E860D8 /* AmexAssignemntUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmexAssignemntUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D330E01E2B5FA05200E860D8 /* AmexAssignemntUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmexAssignemntUITests.swift; sourceTree = "<group>"; };
+		D330E0202B5FA05200E860D8 /* AmexAssignemntUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmexAssignemntUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D330E0322B5FA4E000E860D8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D330E0362B5FB32200E860D8 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		D330E0382B5FB38300E860D8 /* PhotoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewModel.swift; sourceTree = "<group>"; };
+		D330E03C2B5FB3F400E860D8 /* PhotoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewController.swift; sourceTree = "<group>"; };
+		D330E03F2B5FBD2B00E860D8 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		D330E0422B5FBFC000E860D8 /* PhotoListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListTableViewCell.swift; sourceTree = "<group>"; };
+		D330E0442B6A535D00E860D8 /* APIERROR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIERROR.swift; sourceTree = "<group>"; };
+		D330E0462B6A73E000E860D8 /* UIView+ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ActivityIndicator.swift"; sourceTree = "<group>"; };
+		D330E04E2B6A7AA100E860D8 /* PhotoDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewModel.swift; sourceTree = "<group>"; };
+		D330E0522B6B70D700E860D8 /* PhotoListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewModelTests.swift; sourceTree = "<group>"; };
+		D330E0572B6B87DC00E860D8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D34FDD182B722F4A0099736B /* PhotoDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewModelTests.swift; sourceTree = "<group>"; };
+		D36700A52B6EC6070062971B /* MockImageServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockImageServices.swift; sourceTree = "<group>"; };
+		D36700A72B6ED8460062971B /* PhotoDetailViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D330DFF72B5FA04E00E860D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D330E00D2B5FA05200E860D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D330E0172B5FA05200E860D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D330DFF12B5FA04E00E860D8 = {
+			isa = PBXGroup;
+			children = (
+				D330DFFC2B5FA04E00E860D8 /* AmexAssignemnt */,
+				D330E0132B5FA05200E860D8 /* AmexAssignemntTests */,
+				D330E01D2B5FA05200E860D8 /* AmexAssignemntUITests */,
+				D330DFFB2B5FA04E00E860D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D330DFFB2B5FA04E00E860D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D330DFFA2B5FA04E00E860D8 /* AmexAssignemnt.app */,
+				D330E0102B5FA05200E860D8 /* AmexAssignemntTests.xctest */,
+				D330E01A2B5FA05200E860D8 /* AmexAssignemntUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D330DFFC2B5FA04E00E860D8 /* AmexAssignemnt */ = {
+			isa = PBXGroup;
+			children = (
+				D330E0312B5FA45600E860D8 /* Model */,
+				D330E0302B5FA44F00E860D8 /* View */,
+				D330E02F2B5FA43900E860D8 /* ViewModel */,
+				D330E02E2B5FA42600E860D8 /* NetworkLayer */,
+				D330E02D2B5FA3E100E860D8 /* Extension */,
+				D330E0562B6B87C300E860D8 /* Utility */,
+				D330DFFD2B5FA04E00E860D8 /* AppDelegate.swift */,
+				D330DFFF2B5FA04E00E860D8 /* SceneDelegate.swift */,
+				D330E0062B5FA05200E860D8 /* Assets.xcassets */,
+				D330E0082B5FA05200E860D8 /* LaunchScreen.storyboard */,
+				D330E00B2B5FA05200E860D8 /* Info.plist */,
+			);
+			path = AmexAssignemnt;
+			sourceTree = "<group>";
+		};
+		D330E0132B5FA05200E860D8 /* AmexAssignemntTests */ = {
+			isa = PBXGroup;
+			children = (
+				D330E0512B6B70A600E860D8 /* PhotoDetailTests */,
+				D330E0502B6B709200E860D8 /* PhotoListTests */,
+			);
+			path = AmexAssignemntTests;
+			sourceTree = "<group>";
+		};
+		D330E01D2B5FA05200E860D8 /* AmexAssignemntUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D330E01E2B5FA05200E860D8 /* AmexAssignemntUITests.swift */,
+				D330E0202B5FA05200E860D8 /* AmexAssignemntUITestsLaunchTests.swift */,
+			);
+			path = AmexAssignemntUITests;
+			sourceTree = "<group>";
+		};
+		D330E02D2B5FA3E100E860D8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D330E0462B6A73E000E860D8 /* UIView+ActivityIndicator.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D330E02E2B5FA42600E860D8 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				D330E0322B5FA4E000E860D8 /* NetworkManager.swift */,
+				D330E0442B6A535D00E860D8 /* APIERROR.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		D330E02F2B5FA43900E860D8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D330E0382B5FB38300E860D8 /* PhotoListViewModel.swift */,
+				D330E04E2B6A7AA100E860D8 /* PhotoDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D330E0302B5FA44F00E860D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D330E03A2B5FB3D200E860D8 /* PhotoList */,
+				D330E03E2B5FB41100E860D8 /* PhotoDetail */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D330E0312B5FA45600E860D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D330E0362B5FB32200E860D8 /* ImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D330E03A2B5FB3D200E860D8 /* PhotoList */ = {
+			isa = PBXGroup;
+			children = (
+				D330E0412B5FBFAA00E860D8 /* TableViewCell */,
+				D330E03C2B5FB3F400E860D8 /* PhotoListViewController.swift */,
+			);
+			path = PhotoList;
+			sourceTree = "<group>";
+		};
+		D330E03E2B5FB41100E860D8 /* PhotoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D330E03F2B5FBD2B00E860D8 /* PhotoDetailViewController.swift */,
+			);
+			path = PhotoDetail;
+			sourceTree = "<group>";
+		};
+		D330E0412B5FBFAA00E860D8 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D330E0422B5FBFC000E860D8 /* PhotoListTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		D330E0502B6B709200E860D8 /* PhotoListTests */ = {
+			isa = PBXGroup;
+			children = (
+				D330E0522B6B70D700E860D8 /* PhotoListViewModelTests.swift */,
+				D36700A52B6EC6070062971B /* MockImageServices.swift */,
+			);
+			path = PhotoListTests;
+			sourceTree = "<group>";
+		};
+		D330E0512B6B70A600E860D8 /* PhotoDetailTests */ = {
+			isa = PBXGroup;
+			children = (
+				D36700A72B6ED8460062971B /* PhotoDetailViewTests.swift */,
+				D34FDD182B722F4A0099736B /* PhotoDetailViewModelTests.swift */,
+			);
+			path = PhotoDetailTests;
+			sourceTree = "<group>";
+		};
+		D330E0562B6B87C300E860D8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D330E0572B6B87DC00E860D8 /* Constants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D330DFF92B5FA04E00E860D8 /* AmexAssignemnt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D330E0242B5FA05200E860D8 /* Build configuration list for PBXNativeTarget "AmexAssignemnt" */;
+			buildPhases = (
+				D330DFF62B5FA04E00E860D8 /* Sources */,
+				D330DFF72B5FA04E00E860D8 /* Frameworks */,
+				D330DFF82B5FA04E00E860D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmexAssignemnt;
+			productName = AmexAssignemnt;
+			productReference = D330DFFA2B5FA04E00E860D8 /* AmexAssignemnt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D330E00F2B5FA05200E860D8 /* AmexAssignemntTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D330E0272B5FA05200E860D8 /* Build configuration list for PBXNativeTarget "AmexAssignemntTests" */;
+			buildPhases = (
+				D330E00C2B5FA05200E860D8 /* Sources */,
+				D330E00D2B5FA05200E860D8 /* Frameworks */,
+				D330E00E2B5FA05200E860D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D330E0122B5FA05200E860D8 /* PBXTargetDependency */,
+			);
+			name = AmexAssignemntTests;
+			productName = AmexAssignemntTests;
+			productReference = D330E0102B5FA05200E860D8 /* AmexAssignemntTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D330E0192B5FA05200E860D8 /* AmexAssignemntUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D330E02A2B5FA05200E860D8 /* Build configuration list for PBXNativeTarget "AmexAssignemntUITests" */;
+			buildPhases = (
+				D330E0162B5FA05200E860D8 /* Sources */,
+				D330E0172B5FA05200E860D8 /* Frameworks */,
+				D330E0182B5FA05200E860D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D330E01C2B5FA05200E860D8 /* PBXTargetDependency */,
+			);
+			name = AmexAssignemntUITests;
+			productName = AmexAssignemntUITests;
+			productReference = D330E01A2B5FA05200E860D8 /* AmexAssignemntUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D330DFF22B5FA04E00E860D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D330DFF92B5FA04E00E860D8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D330E00F2B5FA05200E860D8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D330DFF92B5FA04E00E860D8;
+					};
+					D330E0192B5FA05200E860D8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D330DFF92B5FA04E00E860D8;
+					};
+				};
+			};
+			buildConfigurationList = D330DFF52B5FA04E00E860D8 /* Build configuration list for PBXProject "AmexAssignemnt" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D330DFF12B5FA04E00E860D8;
+			productRefGroup = D330DFFB2B5FA04E00E860D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D330DFF92B5FA04E00E860D8 /* AmexAssignemnt */,
+				D330E00F2B5FA05200E860D8 /* AmexAssignemntTests */,
+				D330E0192B5FA05200E860D8 /* AmexAssignemntUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D330DFF82B5FA04E00E860D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D330E00A2B5FA05200E860D8 /* LaunchScreen.storyboard in Resources */,
+				D330E0072B5FA05200E860D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D330E00E2B5FA05200E860D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D330E0182B5FA05200E860D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D330DFF62B5FA04E00E860D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D330E0582B6B87DC00E860D8 /* Constants.swift in Sources */,
+				D330E0372B5FB32200E860D8 /* ImageModel.swift in Sources */,
+				D330E0472B6A73E000E860D8 /* UIView+ActivityIndicator.swift in Sources */,
+				D330E0332B5FA4E000E860D8 /* NetworkManager.swift in Sources */,
+				D330E0452B6A535D00E860D8 /* APIERROR.swift in Sources */,
+				D330DFFE2B5FA04E00E860D8 /* AppDelegate.swift in Sources */,
+				D330E03D2B5FB3F400E860D8 /* PhotoListViewController.swift in Sources */,
+				D330E0002B5FA04E00E860D8 /* SceneDelegate.swift in Sources */,
+				D330E0432B5FBFC000E860D8 /* PhotoListTableViewCell.swift in Sources */,
+				D330E0402B5FBD2B00E860D8 /* PhotoDetailViewController.swift in Sources */,
+				D330E0392B5FB38300E860D8 /* PhotoListViewModel.swift in Sources */,
+				D330E04F2B6A7AA100E860D8 /* PhotoDetailViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D330E00C2B5FA05200E860D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36700A82B6ED8460062971B /* PhotoDetailViewTests.swift in Sources */,
+				D330E0532B6B70D700E860D8 /* PhotoListViewModelTests.swift in Sources */,
+				D34FDD192B722F4A0099736B /* PhotoDetailViewModelTests.swift in Sources */,
+				D36700A62B6EC6070062971B /* MockImageServices.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D330E0162B5FA05200E860D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D330E0212B5FA05200E860D8 /* AmexAssignemntUITestsLaunchTests.swift in Sources */,
+				D330E01F2B5FA05200E860D8 /* AmexAssignemntUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D330E0122B5FA05200E860D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D330DFF92B5FA04E00E860D8 /* AmexAssignemnt */;
+			targetProxy = D330E0112B5FA05200E860D8 /* PBXContainerItemProxy */;
+		};
+		D330E01C2B5FA05200E860D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D330DFF92B5FA04E00E860D8 /* AmexAssignemnt */;
+			targetProxy = D330E01B2B5FA05200E860D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D330E0082B5FA05200E860D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D330E0092B5FA05200E860D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D330E0222B5FA05200E860D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D330E0232B5FA05200E860D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D330E0252B5FA05200E860D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AmexAssignemnt/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amexAssignemnt.AmexAssignemnt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D330E0262B5FA05200E860D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AmexAssignemnt/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amexAssignemnt.AmexAssignemnt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D330E0282B5FA05200E860D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amexAssignemnt.AmexAssignemntTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmexAssignemnt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AmexAssignemnt";
+			};
+			name = Debug;
+		};
+		D330E0292B5FA05200E860D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amexAssignemnt.AmexAssignemntTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmexAssignemnt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AmexAssignemnt";
+			};
+			name = Release;
+		};
+		D330E02B2B5FA05200E860D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amexAssignemnt.AmexAssignemntUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmexAssignemnt;
+			};
+			name = Debug;
+		};
+		D330E02C2B5FA05200E860D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amexAssignemnt.AmexAssignemntUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmexAssignemnt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D330DFF52B5FA04E00E860D8 /* Build configuration list for PBXProject "AmexAssignemnt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D330E0222B5FA05200E860D8 /* Debug */,
+				D330E0232B5FA05200E860D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D330E0242B5FA05200E860D8 /* Build configuration list for PBXNativeTarget "AmexAssignemnt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D330E0252B5FA05200E860D8 /* Debug */,
+				D330E0262B5FA05200E860D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D330E0272B5FA05200E860D8 /* Build configuration list for PBXNativeTarget "AmexAssignemntTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D330E0282B5FA05200E860D8 /* Debug */,
+				D330E0292B5FA05200E860D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D330E02A2B5FA05200E860D8 /* Build configuration list for PBXNativeTarget "AmexAssignemntUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D330E02B2B5FA05200E860D8 /* Debug */,
+				D330E02C2B5FA05200E860D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D330DFF22B5FA04E00E860D8 /* Project object */;
+}
